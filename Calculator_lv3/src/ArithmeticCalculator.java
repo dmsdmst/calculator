@@ -23,10 +23,15 @@ public abstract class ArithmeticCalculator {
             this.type = type;
         }
 
-        public String getSign(){
-            return type;
-        }
     };
+
+
+    OperatorType plus = OperatorType.PLUS;
+    OperatorType minus = OperatorType.MINUS;
+    OperatorType multiply = OperatorType.MULTIPLY;
+    OperatorType divide = OperatorType.DIVIDE;
+
+
 
 
     public abstract double cal(double first, double second);
